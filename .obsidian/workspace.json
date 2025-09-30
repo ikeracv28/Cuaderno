@@ -1,0 +1,198 @@
+{
+  "main": {
+    "id": "83790054cc06f862",
+    "type": "split",
+    "children": [
+      {
+        "id": "19d817a31a76790c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e11652fe2308eae7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Acceso a Datos/4. Acceso Aleatorio a Ficheros/4.1 Clases NIO.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "4.1 Clases NIO"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "aabc48494f33c89a",
+    "type": "split",
+    "children": [
+      {
+        "id": "ce14f00967e881c3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f71eb003d9a23da4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "abb0e86526c70c72",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "aee9298e5283ba61",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "cc8e5dfaeb81ec5f",
+    "type": "split",
+    "children": [
+      {
+        "id": "fc78387cb58c3fae",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f2c46b740d3acae6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Acceso a Datos/4. Acceso Aleatorio a Ficheros/4.1 Clases NIO.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes de 4.1 Clases NIO"
+            }
+          },
+          {
+            "id": "0d7fbf413f124d92",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Acceso a Datos/4. Acceso Aleatorio a Ficheros/4.1 Clases NIO.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes de 4.1 Clases NIO"
+            }
+          },
+          {
+            "id": "17804b7c2d9e132c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "c8cd173cfa267108",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Acceso a Datos/4. Acceso Aleatorio a Ficheros/4.1 Clases NIO.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema de 4.1 Clases NIO"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false
+    }
+  },
+  "active": "f71eb003d9a23da4",
+  "lastOpenFiles": [
+    "Acceso a Datos/Imagenes/Pasted image 20250930132027.png",
+    "Acceso a Datos/Imagenes/Pasted image 20250930131123.png",
+    "Acceso a Datos/Imagenes/Pasted image 20250930131012.png",
+    "Acceso a Datos/Imagenes/Pasted image 20250930132309.png",
+    "Pasted image 20250930132309.png",
+    "Pasted image 20250930132027.png",
+    "Acceso a Datos/1. Introducción a la Persistencia en Ficheros/Unidad extra - Clase Scanner.md",
+    "Acceso a Datos/4. Acceso Aleatorio a Ficheros/4.1 Clases NIO.md",
+    "Acceso a Datos/4. Acceso Aleatorio a Ficheros",
+    "Pasted image 20250930131123.png",
+    "Pasted image 20250930131012.png",
+    "Acceso a Datos/Imagenes/Pasted image 20250930130844.png",
+    "Acceso a Datos/Imagenes/Pasted image 20250930130840.png",
+    "Acceso a Datos/Imagenes/Pasted image 20250930130813.png",
+    "Acceso a Datos/1. Introducción a la Persistencia en Ficheros/1.2 Tema 1 Introducción a la Persistencia en Ficheros.md",
+    "Acceso a Datos/1. Introducción a la Persistencia en Ficheros/1.1 Definición.md",
+    "Sin título.md",
+    "Acceso a Datos/Ejercicios",
+    "Acceso a Datos/Imagenes",
+    "Acceso a Datos/Lo primero para empezar.md",
+    "Acceso a Datos/1. Introducción a la Persistencia en Ficheros",
+    "Bienvenido.md",
+    "Acceso a Datos"
+  ]
+}
