@@ -27,16 +27,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Acceso a Datos/1. Introducción a la Persistencia en Ficheros/1.2 Tema 1 Introducción a la Persistencia en Ficheros.md",
+                "file": "Pasted.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.2 Tema 1 Introducción a la Persistencia en Ficheros"
+              "title": "Pasted"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -195,11 +194,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0356e1205590f823",
+  "active": "e11652fe2308eae7",
   "lastOpenFiles": [
+    "Pasted.md",
+    "Acceso a Datos/1. Introducción a la Persistencia en Ficheros/1.2 Tema 1 Introducción a la Persistencia en Ficheros.md",
     "Acceso a Datos/Imagenes/Pasted image 20250930124322.png",
     "Acceso a Datos/Imagenes/fotoAccesoAleatorio.png",
-    "Acceso a Datos/1. Introducción a la Persistencia en Ficheros/1.2 Tema 1 Introducción a la Persistencia en Ficheros.md",
     "Acceso a Datos/Imagenes/fotoLecturaSecuencial.png",
     "Acceso a Datos/Imagenes/fotoGit.png",
     "Acceso a Datos/4. Acceso Aleatorio a Ficheros/4.1 Clases NIO.md",
@@ -211,7 +211,6 @@
     "Pasted image 20250930132027.png",
     "Acceso a Datos/1. Introducción a la Persistencia en Ficheros/Unidad extra - Clase Scanner.md",
     "Acceso a Datos/4. Acceso Aleatorio a Ficheros",
-    "Pasted image 20250930131123.png",
     "Acceso a Datos/1. Introducción a la Persistencia en Ficheros/1.1 Definición.md",
     "Sin título.md",
     "Acceso a Datos/Ejercicios",
