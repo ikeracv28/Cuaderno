@@ -50,7 +50,9 @@ public class EjemploScanner {
     }  
 }
 ```
-![[Pasted image 20250930130554.png]]
+
+![texto](../Imagenes/EjemplosScanner.png)
+
 ### Observaciones importantes
 
 - Es recomendable **cerrar siempre** el `Scanner` al final del programa.
@@ -83,10 +85,14 @@ public class LeerArchivoScanner {
     }  
 }
 ```
-![[Pasted image 20250930130813.png]]
-![[Pasted image 20250930130844.png]]
+
+![texto](../Imagenes/LeerArchivosScanner1.png)
+![texto](../Imagenes/LeerArchivosScanner2.png)
+
 Si no estuviera creada la carpeta datos y el archivo entrada.txt dentro daría error
-![[Pasted image 20250930131012.png]]
+
+![texto](../Imagenes/LeerArchivosScanner3.png)
+
 
 ### Ventajas frente a otras clases de lectura de archivos
 
@@ -140,7 +146,8 @@ public class MenuEjemplo {
 }
 ```
 
-![[Pasted image 20250930131123.png]]
+![texto](../Imagenes/MenuEjemplo.png)
+
 
 Este tipo de menús se utiliza como base en muchos proyectos de consola.
 
@@ -161,3 +168,6 @@ Este tipo de menús se utiliza como base en muchos proyectos de consola.
 - Para proyectos grandes, combinarlo con **clases POJO** para estructurar datos.
     
 - Evitar su uso en **aplicaciones con ficheros enormes**, donde `BufferedReader` es más eficiente.
+
+
+

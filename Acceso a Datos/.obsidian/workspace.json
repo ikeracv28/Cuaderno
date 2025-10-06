@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "51d25c834535d51b",
+    "id": "b24a540f1a805f54",
     "type": "split",
     "children": [
       {
-        "id": "8fd2131750c72fe7",
+        "id": "deaebd809bc70769",
         "type": "tabs",
         "children": [
           {
-            "id": "34152a624ab0570b",
+            "id": "23c16f0b3df5211b",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -23,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "e4cef2b69b006fbc",
+    "id": "0fbf7e10806f005c",
     "type": "split",
     "children": [
       {
-        "id": "a358f255b3e6528d",
+        "id": "9c5eda93fcf5fe81",
         "type": "tabs",
         "children": [
           {
-            "id": "7d6adad74852bdd5",
+            "id": "44d902cc05d36905",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,7 +44,7 @@
             }
           },
           {
-            "id": "0e8fbb56a839a269",
+            "id": "51d32fdb2c1a8cd6",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -61,7 +61,7 @@
             }
           },
           {
-            "id": "5f6bdafa71b4f7c6",
+            "id": "5e92dc5b9bcfef9a",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -77,20 +77,19 @@
     "width": 300
   },
   "right": {
-    "id": "2aa1cd0c12f94f46",
+    "id": "93c396a62ec7d190",
     "type": "split",
     "children": [
       {
-        "id": "853e7c5d6baa7de9",
+        "id": "a88695593a1021bb",
         "type": "tabs",
         "children": [
           {
-            "id": "92b1ee9325d04473",
+            "id": "2b27dbb52df5649d",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cuaderno/Acceso a Datos/1. Introducción a la Persistencia en Ficheros/Unidad extra - Clase Scanner.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,25 +99,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes de Unidad extra - Clase Scanner"
+              "title": "Enlaces entrantes"
             }
           },
           {
-            "id": "d6990719d5298408",
+            "id": "15c6f18d37025d3c",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cuaderno/Acceso a Datos/1. Introducción a la Persistencia en Ficheros/Unidad extra - Clase Scanner.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes de Unidad extra - Clase Scanner"
+              "title": "Enlaces salientes"
             }
           },
           {
-            "id": "c46e642f6b7d6f17",
+            "id": "9a09aca097abf06e",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -133,36 +131,25 @@
             }
           },
           {
-            "id": "ddf55b828034f9ee",
+            "id": "6b1d1d929469912e",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cuaderno/Acceso a Datos/1. Introducción a la Persistencia en Ficheros/Unidad extra - Clase Scanner.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de Unidad extra - Clase Scanner"
-            }
-          },
-          {
-            "id": "beb21e3fdc1beef8",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "title": "Esquema"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -172,37 +159,9 @@
       "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
-      "bases:Crear nueva base": false,
-      "obsidian-git:Open Git source control": false
+      "bases:Crear nueva base": false
     }
   },
-  "active": "7d6adad74852bdd5",
-  "lastOpenFiles": [
-    "Cuaderno/Acceso a Datos/1. Introducción a la Persistencia en Ficheros/Unidad extra - Clase Scanner.md",
-    "README.md",
-    "Acceso a Datos/Imagenes/RutasEjemplo.png",
-    "Acceso a Datos/Imagenes/Pasted image 20250930130840.png",
-    "Acceso a Datos/Imagenes/MenuEjemplo.png",
-    "Acceso a Datos/Imagenes/LeerArchivosScanner3.png",
-    "Acceso a Datos/Imagenes/LeerArchivosScanner1.png",
-    "Acceso a Datos/Imagenes/LeerArchivosScanner2.png",
-    "Acceso a Datos/Imagenes/LecturaEscrituraNIO.png",
-    "Acceso a Datos/Imagenes/GuardarLeerTexto.png",
-    "Acceso a Datos/Imagenes/fotoLecturaSecuencial.png",
-    "Acceso a Datos/Imagenes/fotoGit.png",
-    "Acceso a Datos/4. Acceso Aleatorio a Ficheros/4.1 Clases NIO.md",
-    "Acceso a Datos/1. Introducción a la Persistencia en Ficheros/Unidad extra - Clase Scanner.md",
-    "Acceso a Datos/1. Introducción a la Persistencia en Ficheros/Lo primero para empezar.md",
-    "Acceso a Datos/1. Introducción a la Persistencia en Ficheros/1.2 Tema 1 Introducción a la Persistencia en Ficheros.md",
-    "Acceso a Datos/1. Introducción a la Persistencia en Ficheros/1.1 Definición.md",
-    "Acceso a Datos/Imagenes",
-    "Acceso a Datos/4. Acceso Aleatorio a Ficheros",
-    "Acceso a Datos/1. Introducción a la Persistencia en Ficheros",
-    "Acceso a Datos",
-    "Cuaderno/Acceso a Datos/4. Acceso Aleatorio a Ficheros/4.1 Clases NIO.md",
-    "Cuaderno/Acceso a Datos/1. Introducción a la Persistencia en Ficheros/1.2 Tema 1 Introducción a la Persistencia en Ficheros.md",
-    "Cuaderno/Acceso a Datos/1. Introducción a la Persistencia en Ficheros/Lo primero para empezar.md",
-    "Cuaderno/Acceso a Datos/1. Introducción a la Persistencia en Ficheros/1.1 Definición.md",
-    "Cuaderno/Pasted.md"
-  ]
+  "active": "23c16f0b3df5211b",
+  "lastOpenFiles": []
 }
