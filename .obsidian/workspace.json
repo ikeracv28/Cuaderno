@@ -50,6 +50,48 @@
             }
           },
           {
+            "id": "94c4afd8453f3fcf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Acceso a Datos/Ejercicios Unidad 1/Link a mi repositorio de Acceso a Datos en GitHub.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Link a mi repositorio de Acceso a Datos en GitHub"
+            }
+          },
+          {
+            "id": "7f3d03d1d2e2c674",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sin título.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Sin título"
+            }
+          },
+          {
+            "id": "55554a8682201a23",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Acceso a Datos/01.Teoria Introducción a los Formatos de Exportación/EjemplosExportacion/Exportar CSV.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Exportar CSV"
+            }
+          },
+          {
             "id": "a195731fab390c5c",
             "type": "leaf",
             "state": {
@@ -88,7 +130,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -247,24 +289,30 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a31ecdef6d24870e",
+  "active": "55554a8682201a23",
   "lastOpenFiles": [
-    "Pasted image 20251023095700.png",
-    "Acceso a Datos/01.Teoria Introducción a los Formatos de Exportación/4. Formato JSON (JavaScript Object Notation).md",
-    "Acceso a Datos/01.Teoria Introducción a los Formatos de Exportación/5. Comparación de Formatos Tabla comparativa completa.md",
-    "Acceso a Datos/01.Teoria Introducción a los Formatos de Exportación/3. Formato XML (eXtensible Markup Language).md",
-    "Acceso a Datos/01.Teoria Introducción a los Formatos de Exportación/2. Formato CSV (Comma-Separated Values).md",
-    "Acceso a Datos/01.Teoria Introducción a los Formatos de Exportación/1. Introducción a los Formatos de Exportación.md",
+    "Acceso a Datos/01.Teoria Introducción a los Formatos de Exportación/EjemplosExportacion/Exportcion json.md",
+    "Acceso a Datos/01.Teoria Introducción a los Formatos de Exportación/EjemplosExportacion/Exportar XML.md",
+    "Acceso a Datos/01.Teoria Introducción a los Formatos de Exportación/EjemplosExportacion/Exportar CSV.md",
+    "Acceso a Datos/01.Teoria Introducción a los Formatos de Exportación/EjemplosExportacion/EXPORTCION CSV.md",
+    "Sin título.md",
     "Acceso a Datos/6. Lectura y Escritura Ficheros XML/6.1 Procesamiento XML con DOM (Document Object Model).md",
+    "Acceso a Datos/01.Teoria Introducción a los Formatos de Exportación/EjemplosExportacion",
+    "Acceso a Datos/Ejercicios Unidad 1/Link a mi repositorio de Acceso a Datos en GitHub.md",
+    "Acceso a Datos/01.Teoria Introducción a los Formatos de Exportación/5. Comparación de Formatos Tabla comparativa completa.md",
+    "Acceso a Datos/01.Teoria Introducción a los Formatos de Exportación/2. Formato CSV (Comma-Separated Values).md",
+    "Acceso a Datos/01.Teoria Introducción a los Formatos de Exportación/3. Formato XML (eXtensible Markup Language).md",
+    "Acceso a Datos/01.Teoria Introducción a los Formatos de Exportación/4. Formato JSON (JavaScript Object Notation).md",
+    "Acceso a Datos/1. Introducción a la Persistencia en Ficheros/Unidad extra - Clase Scanner.md",
+    "Acceso a Datos/1. Introducción a la Persistencia en Ficheros/Lo primero para empezar.md",
+    "Acceso a Datos/6. Lectura y Escritura Ficheros XML/Introducción.md",
+    "Acceso a Datos/1. Introducción a la Persistencia en Ficheros/1.2 Tema 1 Introducción a la Persistencia en Ficheros.md",
+    "Acceso a Datos/1. Introducción a la Persistencia en Ficheros/1.1 Definición.md",
+    "Pasted image 20251023095700.png",
+    "Acceso a Datos/01.Teoria Introducción a los Formatos de Exportación/1. Introducción a los Formatos de Exportación.md",
     "Acceso a Datos/Imagenes/CuadroFormatos.png",
     "Acceso a Datos/4. Acceso Aleatorio a Ficheros/4.1 Clases NIO.md",
     "Acceso a Datos/01.Teoria Introducción a los Formatos de Exportación",
-    "Acceso a Datos/1. Introducción a la Persistencia en Ficheros/Unidad extra - Clase Scanner.md",
-    "Acceso a Datos/1. Introducción a la Persistencia en Ficheros/Lo primero para empezar.md",
-    "Acceso a Datos/1. Introducción a la Persistencia en Ficheros/1.2 Tema 1 Introducción a la Persistencia en Ficheros.md",
-    "Acceso a Datos/1. Introducción a la Persistencia en Ficheros/1.1 Definición.md",
-    "Acceso a Datos/Ejercicios Unidad 1/Link a mi repositorio de Acceso a Datos en GitHub.md",
-    "Acceso a Datos/6. Lectura y Escritura Ficheros XML/Introducción.md",
     "Acceso a Datos/Ejercicios Unidad 1",
     "Acceso a Datos/Imagenes/DOMEscribirEjemplo.png",
     "README.md",
@@ -276,7 +324,6 @@
     "Acceso a Datos/Imagenes/LeerXMLSax.png",
     "Acceso a Datos/Imagenes/LeerXMLDOM1.png",
     "Acceso a Datos/Imagenes/LeerXMLDOM2.png",
-    "Acceso a Datos/Imagenes/LeerArchivosScanner3.png",
     "Acceso a Datos/6. Lectura y Escritura Ficheros XML",
     "Acceso a Datos/5. Ficheros Binarios y Serializacion de Objetos",
     "Cuaderno/Acceso a Datos/1. Introducción a la Persistencia en Ficheros/Unidad extra - Clase Scanner.md",
