@@ -1,10 +1,5 @@
 
 ```java
-import java.io.*;  
-import java.time.LocalDateTime;  
-import java.time.format.DateTimeFormatter;  
-import java.util.List;  
-  
 public class ExportarXML {  
     // Ruta del archivo XML  
     static String fecha;  
@@ -71,7 +66,7 @@ public class ExportarXML {
   
     /**  
      * Escribe la lista completa de estudiantes en `datos/estudiantes.xml`.     * Sobrescribe el archivo con una estructura XML bien formada y un resumen de notas.     * <p>  
-     * estudiantes lista de objetos Estudiante (debe existir la clase Estudiante con getters usados)  
+     * estudiantes lista de objetos NivelBasico.Estudiante (debe existir la clase NivelBasico.Estudiante con getters usados)  
      */  
     public static String crearNombreArchivo() {  
         DateTimeFormatter formatter =  

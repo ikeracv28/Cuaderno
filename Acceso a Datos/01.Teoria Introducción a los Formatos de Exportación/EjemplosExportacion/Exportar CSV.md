@@ -1,10 +1,5 @@
 
 ```java
-import java.io.*;  
-import java.time.LocalDateTime;  
-import java.time.format.DateTimeFormatter;  
-import java.util.List;  
-  
 public class ExportarCSVProfe {  
   
     final String archivo = "csv/estudiantes_";  

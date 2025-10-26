@@ -1,14 +1,4 @@
 ````java
-import java.io.BufferedWriter;  
-import java.io.File;  
-import java.io.FileOutputStream;  
-import java.io.IOException;  
-import java.io.OutputStreamWriter;  
-import java.nio.charset.StandardCharsets;  
-import java.time.LocalDateTime;  
-import java.time.format.DateTimeFormatter;  
-import java.util.List;  
-  
 public class ExportarJSON {  
     // Ruta del archivo JSON  
     static String fecha;  
@@ -60,7 +50,7 @@ public class ExportarJSON {
   
     /**  
      * Escribe la lista completa de estudiantes en json/estudiantes_YYYYMMDD_HHMMSS.json.     * Sobrescribe el archivo recién creado (se crea con timestamp) con una estructura JSON     * bien formada que incluye metadata, la lista de estudiantes y un resumen de notas.     * <p>  
-     * estudiantes: lista de objetos Estudiante (debe existir la clase Estudiante con getters usados)  
+     * estudiantes: lista de objetos NivelBasico.Estudiante (debe existir la clase NivelBasico.Estudiante con getters usados)  
      */    public static void escribirJsonExacto(List<Estudiante> estudiantes) {  
         try {  
             String nombreArchivo = crearNombreArchivo();  
@@ -173,5 +163,4 @@ public class ExportarJSON {
         }  
     }  
 }
-
 ```
