@@ -46,11 +46,11 @@ class Persona implements Serializable {
 }
 ```
 
-![texto](../Imagenes/EscribirObjeto.png)
+![texto](EscribirObjeto.png)
 
 Y como podemos ver, se no has creado un archivo llamado persona.dat en la carpeta datos como le hemos especificado.
 
-![texto](../Imagenes/EscribirObjeto2.png)
+![texto](EscribirObjeto2.png)
 
 ## Lectura de objetos (deserialización)
 
@@ -70,7 +70,7 @@ public class LeerObjeto {
 }
 ```
 
-![texto](../Imagenes/LeerObjeto.png)
+![texto](LeerObjeto.png)
 
 
 

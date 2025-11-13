@@ -1,7 +1,7 @@
 Lo primero que hicimos es activarnos el GitHub Student, que tuvimos que subir la matricula dentro de GitHub, en la parte de Billing and Licensing, y esperar 72 horas a que nos lo aceptaran.
 todo esto fue para poder tener el IntelliJ Community premium gratis.
 
-![texto](../Imagenes/fotoGit.png)
+![texto](fotoGit.png)
 
 
 

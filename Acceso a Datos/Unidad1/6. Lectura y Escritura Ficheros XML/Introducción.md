@@ -64,12 +64,12 @@ public class LeerXML_DOM {
 ```
 
 Para que nos vaya tendremos que crear el archivo libros.xml dentro de la carpeta datos.
-![texto](../Imagenes/LeerXMLDOM1.png)
+![texto](LeerXMLDOM1.png)
 
  Y un vez hayamos creado y escrito el XML, ejecutamos la  clase y nos mostrara los datos del XML
 
 
-![texto](../Imagenes/LeerXMLDOM2.png)
+![texto](LeerXMLDOM2.png)
 
 ## Lectura con SAX (manejador de eventos)
 
@@ -118,7 +118,7 @@ public class LeerXML_SAX {
 
 Aquí no tendremos que crear el archivo porque ya esta creado, lo que hace es mostrárnoslo de otra manera
 
-![texto](../Imagenes/LeerXMLSax.png)
+![texto](LeerXMLSax.png)
 
 
 

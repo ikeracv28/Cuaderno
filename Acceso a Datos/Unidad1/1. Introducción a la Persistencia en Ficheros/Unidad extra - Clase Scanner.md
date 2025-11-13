@@ -51,7 +51,7 @@ public class EjemploScanner {
 }
 ```
 
-![texto](../Imagenes/EjemplosScanner.png)
+![texto](EjemplosScanner.png)
 
 ### Observaciones importantes
 
@@ -86,12 +86,12 @@ public class LeerArchivoScanner {
 }
 ```
 
-![texto](../Imagenes/LeerArchivosScanner1.png)
-![texto](../Imagenes/LeerArchivosScanner2.png)
+![texto](LeerArchivosScanner1.png)
+![texto](LeerArchivosScanner2.png)
 
 Si no estuviera creada la carpeta datos y el archivo entrada.txt dentro daría error
 
-![texto](../Imagenes/LeerArchivosScanner3.png)
+![texto](LeerArchivosScanner3.png)
 
 
 ### Ventajas frente a otras clases de lectura de archivos
@@ -146,7 +146,7 @@ public class MenuEjemplo {
 }
 ```
 
-![texto](../Imagenes/MenuEjemplo.png)
+![texto](MenuEjemplo.png)
 
 
 Este tipo de menús se utiliza como base en muchos proyectos de consola.

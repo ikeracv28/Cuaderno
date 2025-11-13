@@ -1,0 +1,133 @@
+
+## Introducción
+
+El uso de conexiones directas con `DriverManager` es válido para aplicaciones pequeñas, pero en entornos empresariales con muchos usuarios resulta ineficiente. Cada vez que una aplicación abre una conexión:
+
+1. El SGBD autentica al usuario.
+    
+2. Se reserva memoria y recursos de red.
+    
+3. Se negocia el protocolo de comunicación.
+    
+
+Este proceso es **costoso en tiempo y recursos**. Si cada usuario abre y cierra conexiones constantemente, el sistema puede colapsar.
+
+La solución es usar un **pool de conexiones**: un conjunto de conexiones abiertas y disponibles para reutilizar.
+
+## 1. ¿Qué es un Pool de Conexiones?
+
+Un _pool de conexiones_ es un **mecanismo de gestión de recursos** que mantiene un grupo de conexiones abiertas hacia la base de datos.
+
+- Cuando un cliente necesita una conexión, la solicita al pool.
+    
+- Si hay una disponible, se entrega inmediatamente.
+    
+- Cuando termina, la conexión se devuelve al pool en lugar de cerrarse.
+    
+- Si no hay conexiones libres, el cliente espera o se crea una nueva hasta un máximo configurado.
+    
+
+## 2. Ventajas del Pool de Conexiones
+
+1. **Rendimiento**: evita el coste de abrir/cerrar conexiones constantemente.
+    
+2. **Escalabilidad**: soporta más usuarios concurrentes.
+    
+3. **Control**: permite limitar el número máximo de conexiones para no saturar el SGBD.
+    
+4. **Configuración avanzada**: tiempo máximo de espera, conexiones mínimas y máximas, validación automática, etc.
+    
+
+## 3. Implementaciones de Pools
+
+Las más utilizadas en proyectos Java:
+
+- **HikariCP** → Rápido, ligero y el estándar actual en Spring Boot.
+    
+- **Apache DBCP** → Usado en proyectos legacy, robusto.
+    
+- **C3P0** → Flexible, aunque más lento.
+    
+
+## 4. Ejemplo práctico con HikariCP
+### 4.1. Dependencia Maven
+```xml
+<dependency>
+    <groupId>com.zaxxer</groupId>
+    <artifactId>HikariCP</artifactId>
+    <version>5.1.0</version>
+</dependency>
+```
+
+### 4.2. Configuración en Java
+
+```java
+import com.zaxxer.hikari.HikariConfig;
+import com.zaxxer.hikari.HikariDataSource;
+import java.sql.Connection;
+
+public class EjemploPool {
+    public static void main(String[] args) {
+        // Configuración del pool
+        HikariConfig config = new HikariConfig();
+        config.setJdbcUrl("jdbc:mysql://localhost:3306/empresa");
+        config.setUsername("root");
+        config.setPassword("root");
+        config.setMaximumPoolSize(5); // máximo de conexiones simultáneas
+        config.setMinimumIdle(2);     // conexiones mínimas en espera
+        config.setIdleTimeout(30000); // tiempo de inactividad antes de liberar
+        config.setMaxLifetime(1800000); // vida máxima de una conexión
+
+        // Creación del DataSource (pool)
+        HikariDataSource dataSource = new HikariDataSource(config);
+
+        // Uso de la conexión
+        try (Connection con = dataSource.getConnection()) {
+            System.out.println("Conexión obtenida del pool");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        // Cerrar el pool al terminar la aplicación
+        dataSource.close();
+    }
+}
+```
+
+## 5. Comparación: Conexiones directas vs Pool
+
+|Característica|Conexión directa (`DriverManager`)|Pool de conexiones|
+|---|---|---|
+|Tiempo de apertura|Alto (cada vez crea una conexión)|Bajo (reutiliza conexiones)|
+|Recursos|Alto consumo|Optimizado|
+|Escalabilidad|Limitada|Alta|
+|Control|Ninguno|Configurable (mínimas, máximas, timeout)|
+|Uso recomendado|Aplicaciones pequeñas|Aplicaciones empresariales|
+
+## 6. Errores comunes
+
+- No devolver la conexión al pool (equivale a fuga de memoria).
+    
+- Configurar un número demasiado bajo de conexiones → bloqueos.
+    
+- Configurar un número demasiado alto → saturación de la BD.
+    
+
+## 7. Buenas prácticas
+
+- Siempre usar `try-with-resources` para devolver conexiones al pool.
+    
+- Ajustar el tamaño del pool según la carga de la aplicación.
+    
+- Monitorizar métricas del pool (número de conexiones activas, en espera, etc.).
+
+
+## 8. Resumen
+
+- El pool de conexiones es fundamental en aplicaciones con muchos usuarios.
+    
+- Aumenta el rendimiento y la escalabilidad.
+    
+- HikariCP es la implementación más recomendada actualmente.
+    
+- Siempre se deben configurar adecuadamente los parámetros del pool.

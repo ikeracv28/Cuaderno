@@ -73,7 +73,7 @@ public class XPathEjemplo {
 }
 ```
 
-![texto](../Imagenes/XPathEjemplo.png)
+![texto](XPathEjemplo.png)
 
 ## Resumen
 

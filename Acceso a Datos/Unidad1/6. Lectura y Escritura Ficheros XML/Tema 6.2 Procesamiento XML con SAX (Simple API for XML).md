@@ -1,7 +1,7 @@
 **Descripción**  
 En esta unidad se estudia SAX, un modelo de procesamiento de XML basado en eventos, que permite analizar documentos XML de forma secuencial, sin cargarlos completamente en memoria. Es ideal para ficheros grandes o cuando no es necesario modificar el contenido del documento.
 
-![texto](../Imagenes/sax.png)
+![texto](sax.png)
 
 ## ¿Qué es SAX?
 
@@ -94,7 +94,7 @@ public class SAXEjemplo {
 }
 ```
 
-![texto](../Imagenes/EjemploSax.png)
+![texto](EjemploSax.png)
 
 ## Comparativa con DOM
 
